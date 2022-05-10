@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="shortcut icon" href="img/favicon.png" type="favicon">
+
+    <title>  Decodificador </title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container">
+
+           <a href="https://www.alura.com.br/" target="_blank"> <img src="img/Logo Alura.png" alt="Logo" class="logo"></a>
+
+        </div>
+        
+    </header>
+
+    <main>
+
+    <section class="flex-container">
+
+        <div>
+
+            <form>
+                
+                <textarea type="text" id="input-text" required placeholder="Digite seu texto aqui:"></textarea>
+                
+                <p class="avisoMensagem"> Caracteres em minúsculo e sem assento.</p>
+
+                <img src="img/alerta.png" id="alertaIcone">   
+
+                <div>
+                    
+                    <a href="#output-text">
+                        <button type="submit" id="criptografar" class="botoes">Criptografar
+                        </button>
+                    </a>
+
+                    <a href="#output-text">
+                        <button type="submit" id="descriptografar" class="botoes">Descriptografar
+                        </button>
+                    </a>
+
+                </div>
+
+            </form>
+
+        </div>
+        
+        <div>
+
+            <div class="flex">
+
+                <p class="aguardoMensagem"><strong>Nenhuma mensagem<br> encontrada</strong></p>
+
+
+            </div>
+
+            <img src="img/Boneco Pesquisa.png" id="png">
+            <textarea type="text" readonly required="text" id="output-text" class="border">
+            </textarea>
+
+            <div>
+
+                <button type="button" id="copiar" class="botoes">Copiar</button>
+                <button type="button" id="limpar" class="botoes">Limpar</button>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+</main>
+
+<footer>
+    Desenvolvido por <a class="nomeLink" href="https://github.com/Felipe-SantosB" target="blank">Felipe Barbosa</a>
+    
+    <div class="links">
+               
+        <a href="https://github.com/Felipe-SantosB" target="_blank">
+            
+            <img src="img/github gif.gif" alt="github" width="35px" height="35x">
+
+        </a>
+
+        <a href="https://www.linkedin.com/in/felipe-santos-38a596170/" target="_blank">
+
+            <img src="img/linkedin gif.gif" alt="linkedin" width="35px" height="35x">
+
+        </a>
+
+    </div>
+    
+</footer>
+
+</div>
+
+<script src="script.js"> </script>
+
+</body>
+
+</html>
